@@ -1,5 +1,5 @@
 :root{
-    --orange:#00b7ff;
+    --orange:#f55254;
 }
 *{
     margin: 0; padding: 0;
@@ -71,7 +71,7 @@ html{
 
 .home .hero{
     min-height: 60vh;
-    background: url(img/fundo-2.jpg) no-repeat;
+    background: url(hotel.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -190,7 +190,7 @@ html{
 }
 .projects{
     min-height: 100vh;
-    background: #3f576d;
+    background: #444;
 }
 .projects .heading{
     color: #fff;
