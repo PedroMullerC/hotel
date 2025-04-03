@@ -14,8 +14,19 @@ $(document).ready(function(){
         duration:5000,
         step: function(){
             $this.text(Math.floor(this.countNum));
+        },
+        complete: function(){
+            $this.text(this.countNum + '+')
+            }
+        }   
+
+        )
+    });
+    $('.projects').magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
         }
-        }
-    )
-    })
-})
+    });
+});
